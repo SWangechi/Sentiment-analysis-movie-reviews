@@ -23,7 +23,7 @@ st.write("Enter a movie review and get its sentiment classified as Positive or N
 
 # Dropdown to select the model
 model_choice = st.selectbox("Choose a model:", 
-                            ("Logistic Regression", "Naive Bayes", "Random Forest", "Decision Tree"))
+                            ("Logistic Regression", "Naive Bayes", "Decision Tree"))
 
 # Dictionary to map model names to the actual model objects
 model_dict = {
